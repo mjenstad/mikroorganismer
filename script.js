@@ -3,7 +3,7 @@ const diseases = [
   "Tuberkulose",
   "Fotsopp",
   "Malaria",
-  "Covid-19",
+  "Solaris-19",
   "Spedalskhet",
   "Klamydia",
   "Ringorm",
