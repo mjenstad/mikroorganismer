@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sorteringsoppgave – mikroorganismer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main>
+    <h1>Sorter sykdommene etter mikroorganisme</h1>
+    <p>Klikk på en sykdom og plasser den i riktig kategori.</p>
+
+    <section id="pool" class="box">
+      <h2>Sykdommer</h2>
+      <div class="items" id="pool-items"></div>
+    </section>
+
+    <section class="grid">
+      <div class="box">
+        <h2>Bakterier</h2>
+        <div class="items" data-target="bakterier"></div>
+      </div>
+
+      <div class="box">
+        <h2>Virus</h2>
+        <div class="items" data-target="virus"></div>
+      </div>
+
+      <div class="box">
+        <h2>Sopp</h2>
+        <div class="items" data-target="sopp"></div>
+      </div>
+
+      <div class="box">
+        <h2>Parasitter</h2>
+        <div class="items" data-target="parasitter"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
