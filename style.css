@@ -1,0 +1,51 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 2rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1, h2 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.box {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.items {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.item {
+  padding: 0.5rem;
+  background: #e3f2fd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.item:hover {
+  background: #bbdefb;
+}
